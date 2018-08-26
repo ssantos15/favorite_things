@@ -1,5 +1,6 @@
 body {
       background:#c33;
+      color:white;
   }
 
 .panel-transparent {
@@ -22,6 +23,7 @@ body {
   background: none;
 }
 
-.jumbotron-transparent {
-  background: none;
+.jumbotron {
+  background-size:50%;
+
 }
