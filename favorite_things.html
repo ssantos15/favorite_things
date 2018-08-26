@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Michael's favorite things</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite things</title>
   </head>
-  <body>
-    <h1>My favorite things</h1>
-    <h2>These are a few of my favorite things.</h2>
+  <body style= "background: url(img/dinosaur.jpg); background-size:100%;">
+    <div class="container">
+      <div class="jumbotron">
+        <div class="intro">
+          <h1>Favorite Things</h1>
+          <div class="subheading">
+            <p>This webpage will contain Images and links</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="blackWidow" src="img/black_widow.jpg" alt="an image of black widow" style="width:350px;height:275px;">
+          <p>An image of Black Widow</p>
+        </div>
+        <div class="col-md-4">
+          <img class="captainMarvel" src="img/captain_marvel.png" alt="An image of Captain Marvel" style="width:350px;height:275px;">
+          <p>An image of Captain Marvel</p>
+        </div>
+        <div class="col-md-4">
+          <img class="wonderWoman" src="img/dc.jpg" alt="an image of Wonder Woman" style="width:350px;height:275px;">
+          <p>An image of Wonder Woman</p>
+        </div>
+      </div>
 
-    <h3>People</h3>
-    <p>Here are some of my favorite <em>people</em>!</p>
-    <ul>
-      <li>
-        <a href="http://datsik.com/home/">
-          My brother <strong>Christopher</strong>
-          <img src="img/datsik.jpg" alt="A photo of Christopher." style="width:500px;height:300px;">
-        </a>
-      </li>
-      <li>
-        My mom and dad:
-        <ul>
-          <li>
-            <a href="https://www.ninjakitchen.com/">
-              <strong>Steve</strong>
-              <img src="img/ninja.jpg" alt="A photo of Steve." style="width:500px;height:300px;">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.imdb.com/title/tt4154664/">
-              <strong>Carol</strong>
-              <img src="img/captain_marvel.png" alt="A photo of Carol." style="width:500px;height:300px;">
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="https://www.dccomics.com/characters/wonder-woman">
-          My friend <strong>Jessica</strong>
-          <img src="img/dc.jpg" alt="A photo of Jessica." style="width:400px;height:300px;">
-        </a>
-      </li>
-      <li>
-        <a href="https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova)">
-          My friend <strong>Candy</strong>
-          <img src="img/black_widow.jpg" alt="A photo of Candy." style="width:500px;height:300px;">
-        </a>
-      </li>
-    </ul>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="ninja" src="img/ninja.jpg" alt="an image of a ninja" style="width:100%;height:275px;">
+          <p>An image of a ninja</p>
+        </div>
+        <div class="col-md-6">
+          <img class="datsik" src="img/datsik.jpg" alt="An image of Datsik" style="width:100%;height:275px;">
+          <p>An image of Datsik</p>
+        </div>
+      </div>
 
-    <p>Thanks for reading about me!</p>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h2>Ingredients</h2>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Butter</li>
+              <li>White sugar</li>
+              <li>Brown sugar</li>
+              <li>Eggs</li>
+              <li>Vanilla</li>
+              <li>Flour</li>
+              <li>Baking soda</li>
+              <li>Salt</li>
+              <li>Chocolate chips</li>
+              <li>Oatmeal</li>
+              <li>Coconut</li>
+            </ul><br><br>
+          </div>
+        </div>
+
+        <div class="well">
+          <h2>Directions</h2>
+        </div>
+        <blockquote class="bg-info">
+          <ol>
+            <li>Preheat the oven to 325.</li>
+            <li>Beat the butter, sugar, eggs and vanilla together until creamy.</li>
+            <li>Mix together the flour, baking soda and salt in a separate bowl.</li>
+            <li>Add flour mixture to butter mixture slowly.</li>
+            <li>Stir in chocolate chips, oatmeal and coconut.</li>
+            <li>Bake for <strong>10 minutes</strong> or until golden brown.</li>
+          </ol>
+          <footer><a href="http://allrecipes.com">Click here</a> to check out my other great recipes.</footer>
+        </blockquote>
+    </div>
   </body>
 </html>
