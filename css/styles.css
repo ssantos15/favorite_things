@@ -23,7 +23,23 @@ body {
   background: none;
 }
 
-.jumbotron {
-  background-size:50%;
+.heading {
+  position: relative;
+  text-align: center;
+  margin-top: 4%
+}
 
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro h1 {
+  font-size: 300%;
+}
+
+.container {
+  margin-top: 2%;
 }
